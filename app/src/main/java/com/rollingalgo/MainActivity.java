@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     }
 
     private void intView() {
+        
         mParentSlidingTabView=(PagerSlidingTabStrip)findViewById(R.id.scrollIndicator);
         mViewPager=(ViewPager) findViewById(R.id.viewPager);
         mViewPager.setAdapter(new BaseFragmentPagerAdapter.Holder(getSupportFragmentManager()).add(
