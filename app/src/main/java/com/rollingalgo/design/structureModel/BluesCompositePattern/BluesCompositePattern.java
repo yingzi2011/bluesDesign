@@ -31,8 +31,8 @@ public class BluesCompositePattern {
 
 
     public static void main(String args[]) {
-        BluesProxyTargetObject object = new BluesProxyTargetObject();
-        object.method2();
+//        BluesProxyTargetObject object = new BluesProxyTargetObject();
+//        object.method2();
     }
 
 }
